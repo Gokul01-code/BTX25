@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: linear-gradient(180deg, #F433AB, #CB04A5, #934683, #65334D, #2D1115); 
+    color: white;
+    text-align: center;
+}
+header { 
+    background: transparent; 
+    padding: 20px; 
+}
+nav { 
+    background: rgba(0, 0, 0, 0.3); 
+    padding: 10px; 
+}
+nav a { 
+    color: white; 
+    margin: 0 15px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+.hero { 
+    padding: 60px 20px; 
+    background: transparent; 
+}
+.hero h1 { 
+    font-size: 48px; 
+    margin: 0; 
+}
+.hero p { 
+    font-size: 20px; 
+}
+.btn-register { 
+    background: linear-gradient(90deg, #65334D, #2D1115); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    border-radius: 20px; 
+    text-decoration: none; 
+    transition: transform 0.3s, background 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn-register:hover { 
+    background: linear-gradient(90deg, #2D1115, #65334D); 
+    transform: scale(1.1); 
+}
+section { 
+    padding: 40px 20px; 
+    background: transparent; 
+}
+table { 
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+}
+th, td { 
+    border: 1px solid #2D1115; 
+    padding: 15px; 
+}
+th { 
+    background-color: #65334D; 
+    color: white; 
+}
+footer { 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 20px; 
+}
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
