@@ -7,7 +7,7 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open Btx25 Landing Page.html",
+            "name": "index.html",
             "file": "d:\\BIOTECHCELLENCE 25\\registration website\\Btx25 Landing Page.html"
         }
     ]
